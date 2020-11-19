@@ -18,6 +18,12 @@ Made it so that when a new timesheet is loaded, we will only copy over the valid
 
 Upgraded to IBM Blockchain Platform (IBP) v2
 
+<h3>11/9 Release</h3>
+
+New report to identify contractors who are missing timesheets in a specified time period
+
+Added visibility of Saved (Unsubmitted) timesheets under the "All" Timesheet tab
+
 <h3>10/27 Release</h3>
 
 **Now using fields from upstream systems to automatically delegate POs to the correct Manager and Delegated Time Verifier- will reduce onboarding time** | 
