@@ -20,9 +20,9 @@ Upgraded to IBM Blockchain Platform (IBP) v2
 
 <h3>12/3 Release</h3>
 
-Invoice reconciliation will now be based on hours rather than value. 
+Invoice reconciliation will now be based on hours rather than value. Previously the blockchain invoice value in terms of currency (dollars for the US) was compared with the actual invoice the supplier generated. Now, it is the hours that are being compared which allows reconciliation to pass even when certain edge cases like additional taxes would have caused reconciliation to fail in the past
 
-Update to the Missing Timesheets Report to take contractors previous POs into account when displaying the list of missing timesheets
+We updated the Missing Timesheets Report to take all the contractors previous POs, active or inactive, into account when displaying the list of time sheets that are missing for a given week
 
 <h3>11/9 Release</h3>
 
