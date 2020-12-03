@@ -18,6 +18,12 @@ Made it so that when a new timesheet is loaded, we will only copy over the valid
 
 Upgraded to IBM Blockchain Platform (IBP) v2
 
+<h3>12/3 Release</h3>
+
+Invoices reconciliation will now be based on hours rather than value. 
+
+Update to the Missing Timesheets Report to take contractors previous POs into account when displaying the list of missing timesheets
+
 <h3>11/9 Release</h3>
 
 New report to identify contractors who are missing timesheets in a specified time period
