@@ -1,6 +1,6 @@
 # Blockchain-Contingent-Labor-Releases
 
-<h3>2020 Highlights</h3>
+<h3>Past Year Highlights</h3>
 
 We added a timesheets page allowing contractors to see a table of ALL of their timesheets, including saved (not submitted) timesheets and timesheets on multiple POs
 
@@ -17,6 +17,13 @@ New tab added to Purchase Orders page: "Pending Contractor Assignment"- this tab
 Made it so that when a new timesheet is loaded, we will only copy over the valid timesheet rows from the previous week's timesheet.
 
 Upgraded to IBM Blockchain Platform (IBP) v2
+
+<h3>1/20 Release</h3>
+We added the ability to download a PDF of time sheets. This is especially helpful when there are many accounts and a screenshot will not capture the whole screen.
+
+Warranty Contractor process established for select supplier (CTG) - this enhancement allows Managers to initiate a warranty process for contractors who left during their warranty period. Their time sheets will be flagged so IBM knows they are non-billable, and the contractor won't be able to submit more time sheets.
+
+Supplier invoices will now include the Payment Due Date, Paid Date, and Payment Document Number 
 
 <h3>12/3 Release</h3>
 
