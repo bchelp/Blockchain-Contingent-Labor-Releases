@@ -21,6 +21,7 @@ Upgraded to IBM Blockchain Platform (IBP) v2
 RELEASE NOTES
 In addition to the Grace period removal, we are implementing a feature to display the "Release Notes" on the UI, so you will be informed of the updates to the application when logging in for the first time after the release, or on demand by navigating to the "Release Notes" drop down.  
 
+
 GRACE PERIOD REMOVAL
 Per the direction of our product owner and procurement business we are now REMOVING the grace period that had been established within our application to allow contractors to claim time for 28 days past their PO end date, or to submit timesheets against a PO for up to 4 weeks beyond the date that the PO was exhausted of Standard Time funding (managers could not verify these timesheets but contractors were allowed to submit).  This was originally implemented to allow time for the managers and Support Squads to initiate the PO renewal process so contractors could keep working.  It was not meant to be a permanent solution and it is now time to remove this Grace Period from our application and return to enforcement of procurement rules where contractors should only be claiming time to POs that have funds and are within their validity period. 
 
