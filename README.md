@@ -17,6 +17,23 @@ New tab added to Purchase Orders page: "Pending Contractor Assignment"- this tab
 Made it so that when a new timesheet is loaded, we will only copy over the valid timesheet rows from the previous week's timesheet.
 
 Upgraded to IBM Blockchain Platform (IBP) v2
+<h3>2/23 Release</h3>
+User Interface Changes - We are working on changing our UI to be based on CARBON, in preparation for that we have standarized the fonts and colors of the User Interface.  Users will notice a darker font, the IBM Plex font and more standarized color scheme.  In addition to the font changes, the "FEEDBACK" button was nudged away from the vertical scroll bar to not block it's usage.  This was based on customer feedback. 
+
+SSO log on - For our users that log in with their IBM ids, we have upgraded our SSO log on to the NEW w3id SSO on IBM Security Verify (ISV).  
+
+We have extended the information that our DTVs (Delegated Time Verifiers) can view.  They are now able to view the contractor record table and details.  This will allow them to have a better visibility to the POs under which contractors are claiming as well as the PO end dates.  There was added training documentation for the DTVs.
+
+Contractor record updates - We have added the Manager, DTV and Supplier (SAM = Supplier Account manager) emails in the contractor full record details.  This will better allow you to reach out the approving parties and have visibility to whom contractors are assigned. 
+
+Timesheet updates - We have added the "latest submission" date to the timesheet detail.  We have had multiple requests to have this information avaialble to the verifiers.  You can see what date the timesheet was last submitted for verification on each timesheet now. 
+Additionally, we have tried to add more clear pop up reminders in the Corrections/Post Processing timesheet to remind people that this is a CHANGE from the original, not a replacement for the originally submitted timesheet. 
+
+Warranty Enhancement - In our previous releases we had implemented a feature for certain suppliers to be able to warranty a contractor.  The enhancement this release is to allow timesheets that may have had a supplier invoice to be warrantied IF an invoice reversal was submitted netting the supplier invoice to zero dollars on all lines.  
+
+Supplier Invoice and Invoice reconciliation - Updated the supplier invoice SEARCH capabilities.  The Date search was fixed and additional search capabilities were added to allow for narrowing down the invoice data for analysis.  
+
+
 <h3>2/11 Release</h3>
 RELEASE NOTES
 In addition to the Grace period removal, we are implementing a feature to display the "Release Notes" on the UI, so you will be informed of the updates to the application when logging in for the first time after the release, or on demand by navigating to the "Release Notes" drop down.  
