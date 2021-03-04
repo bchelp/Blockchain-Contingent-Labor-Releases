@@ -17,8 +17,19 @@ New tab added to Purchase Orders page: "Pending Contractor Assignment"- this tab
 Made it so that when a new timesheet is loaded, we will only copy over the valid timesheet rows from the previous week's timesheet.
 
 Upgraded to IBM Blockchain Platform (IBP) v2
+
+<h3>3/04 Release</h3>
+User Interface Changes - We are working on changing our UI to be based on CARBON, this release you will see a change in the headers and menu selection.  These are a sleek black header which is more standard with other IBM applications.  We removed the action tray icons as they were no longer necessary after implementing the manager and SAM dashboard and providing tabs for pending actions.  The timesheet verification queue icon will appear in the header only when there are timesheets processing in the queue. 
+
+Contractor serial number - We have standardized references to the contractor's blue pages serial number across the application.  It had been listed as both IBM Serial Number and IBM Contractor ID.  We have changed the name to be reflective of the supplier/buyer relationship in our application, so it is now referred to across the application as "Buyer Contractor ID".  This doesn't change its functionality, it still refers to the 6-digit Blue Pages serial number, just with a consistent name. 
+
+Calendar - The Date Picker calendar icon now only displays available dates up to the date of the PO expiration.  This was the final piece to the removal of the Grace Period.  Now the calendar on the timesheet page clearly indicates the ending period of the PO.  While the contractor can still claim time for the whole week even if the PO expires in the middle of the week, the calendar will clearly show the PO end date.
+
+Expiring POs - We updated the access on the Expiring POs tab for both Managers and SAM (Supplier Account Managers) to allow them to move a PO from their Expiring Tab to their Inactive tab without having to navigate back to the Primary tab to do so.  You can now move directly to the INACTIVE tab from the Expiring tab.
+
+
 <h3>2/23 Release</h3>
-User Interface Changes - We are working on changing our UI to be based on CARBON, in preparation for that we have standarized the fonts and colors of the User Interface.  Users will notice a darker font, the IBM Plex font and more standarized color scheme.  In addition to the font changes, the "FEEDBACK" button was nudged away from the vertical scroll bar to not block it's usage.  This was based on customer feedback. 
+User Interface Changes - We are working on changing our UI to be based on CARBON, in preparation for that we have standardized the fonts and colors of the User Interface.  Users will notice a darker font, the IBM Plex font and more standardized color scheme.  In addition to the font changes, the "FEEDBACK" button was nudged away from the vertical scroll bar to not block its usage.  This was based on customer feedback. 
 
 SSO log on - For our users that log in with their IBM ids, we have upgraded our SSO log on to the NEW w3id SSO on IBM Security Verify (ISV).  
 
@@ -26,12 +37,12 @@ We have extended the information that our DTVs (Delegated Time Verifiers) can vi
 
 Contractor record updates - We have added the Manager, DTV and Supplier (SAM = Supplier Account manager) emails in the contractor full record details.  This will better allow you to reach out the approving parties and have visibility to whom contractors are assigned. 
 
-Timesheet updates - We have added the "latest submission" date to the timesheet detail.  We have had multiple requests to have this information avaialble to the verifiers.  You can see what date the timesheet was last submitted for verification on each timesheet now. 
+Timesheet updates - We have added the "latest submission" date to the timesheet detail.  We have had multiple requests to have this information available to the verifiers.  You can see what date the timesheet was last submitted for verification on each timesheet now. 
 Additionally, we have tried to add more clear pop up reminders in the Corrections/Post Processing timesheet to remind people that this is a CHANGE from the original, not a replacement for the originally submitted timesheet. 
 
 Warranty Enhancement - In our previous releases we had implemented a feature for certain suppliers to be able to warranty a contractor.  The enhancement this release is to allow timesheets that may have had a supplier invoice to be warrantied IF an invoice reversal was submitted netting the supplier invoice to zero dollars on all lines.  
 
-Supplier Invoice and Invoice reconciliation - Updated the supplier invoice SEARCH capabilities.  The Date search was fixed and additional search capabilities were added to allow for narrowing down the invoice data for analysis.  
+Supplier Invoice and Invoice reconciliation - Updated the supplier invoice SEARCH capabilities.  The Date search was fixed, and additional search capabilities were added to allow for narrowing down the invoice data for analysis.  
 
 
 <h3>2/11 Release</h3>
