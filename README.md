@@ -19,7 +19,8 @@ Made it so that when a new timesheet is loaded, we will only copy over the valid
 Upgraded to IBM Blockchain Platform (IBP) v2
 
 <h3>3/04 Release</h3>
-User Interface Changes - We are working on changing our UI to be based on CARBON, this release you will see a change in the headers and menu selection.  These are a sleek black header which is more standard with other IBM applications.  We removed the action tray icons as they were no longer necessary after implementing the manager and SAM dashboard and providing tabs for pending actions.  The timesheet verification queue icon will appear in the header only when there are timesheets processing in the queue. 
+User Interface Changes - We are working on changing our UI to be based on CARBON, this release you will see a change in the headers and menu selection.  These are a sleek black header which is more standard with other IBM applications.  We removed the action tray icons as they were no longer necessary after implementing the manager and SAM dashboard and providing tabs for pending actions.  The timesheet verification queue icon will appear in the header only when there are timesheets processing in the queue.
+
 
 Contractor serial number - We have standardized references to the contractor's blue pages serial number across the application.  It had been listed as both IBM Serial Number and IBM Contractor ID.  We have changed the name to be reflective of the supplier/buyer relationship in our application, so it is now referred to across the application as "Buyer Contractor ID".  This doesn't change its functionality, it still refers to the 6-digit Blue Pages serial number, just with a consistent name. 
 
