@@ -18,6 +18,18 @@ Made it so that when a new timesheet is loaded, we will only copy over the valid
 
 Upgraded to IBM Blockchain Platform (IBP) v2
 
+<h3>3/16 Release</h3>
+Performance - This release was focused around increased performance in bulk tables, both being to load and extract tables across the application. Users should see tables loading more rapidly and being able to view the whole table without an error being presented.  With the aggregation that was originally in the application, users were finding the tables were either not loading or were taking a long time to load.  Our Dev team made updates and you should see a performance increase in all bulk tables. 
+
+User Interface Changes - Corrected UI SORT issue, when on a table and using the sort function while not on page 1, this correction will now bring you back to page 1 to see all the data sorted.  Additionally, the title header now will stick with the main header so while you are scrolling vertically, you don't lose what page you are on (Contractor/Timesheet/Purchase Order)
+
+Emails - Every week we send an email to the managers to notify them of POs that are expiring.  This notification had incorrectly notified managers of Expired POs that were already in the status of CANCELLED POs, we have removed the CANCELLED POs from these emails to remove confusion. 
+
+Consistency - To continue with our remaining of the IBM Serial number and IBM Contractor ID to be Buyer Contractor ID, we have updated the output of all reports to list the output as Buyer Contractor ID. Same reports all still have the same function, just updated the labels to be consistent.  This is still referring to the 6-digit serial number listed in blue pages.
+
+Documentation - We updated all our PDF documentation to have screenshots matching the new UI Carbon headers, and all changes up till this release.  Links to the training documentation are available on the Release Notes on the application UI. 
+
+
 <h3>3/04 Release</h3>
 User Interface Changes - We are working on changing our UI to be based on CARBON, this release you will see a change in the headers and menu selection.  These are a sleek black header which is more standard with other IBM applications.  We removed the action tray icons as they were no longer necessary after implementing the manager and SAM dashboard and providing tabs for pending actions.  The timesheet verification queue icon will appear in the header only when there are timesheets processing in the queue.
 
