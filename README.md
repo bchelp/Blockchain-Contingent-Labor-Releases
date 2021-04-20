@@ -30,26 +30,26 @@ Preparation for Kyndryl - IBM announced that our new spin off company name is Ky
 
 <h3>3/16 Release</h3>
 Performance - This release was focused around increased performance in bulk tables, both being to load and extract tables across the application. Users should see tables loading more rapidly and being able to view the whole table without an error being presented.  With the aggregation that was originally in the application, users were finding the tables were either not loading or were taking a long time to load.  Our Dev team made updates and you should see a performance increase in all bulk tables. 
-
+</p>
 User Interface Changes - Corrected UI SORT issue, when on a table and using the sort function while not on page 1, this correction will now bring you back to page 1 to see all the data sorted.  Additionally, the title header now will stick with the main header so while you are scrolling vertically, you don't lose what page you are on (Contractor/Timesheet/Purchase Order)
-
+</p>
 Emails - Every week we send an email to the managers to notify them of POs that are expiring.  This notification had incorrectly notified managers of Expired POs that were already in the status of CANCELLED POs, we have removed the CANCELLED POs from these emails to remove confusion. 
-
+</p>
 Consistency - To continue with our remaining of the IBM Serial number and IBM Contractor ID to be Buyer Contractor ID, we have updated the output of all reports to list the output as Buyer Contractor ID. Same reports all still have the same function, just updated the labels to be consistent.  This is still referring to the 6-digit serial number listed in blue pages.
-
+</p>
 Documentation - We updated all our PDF documentation to have screenshots matching the new UI Carbon headers, and all changes up till this release.  Links to the training documentation are available on the Release Notes on the application UI. 
-
+</p>
 
 <h3>3/04 Release</h3>
 User Interface Changes - We are working on changing our UI to be based on CARBON, this release you will see a change in the headers and menu selection.  These are a sleek black header which is more standard with other IBM applications.  We removed the action tray icons as they were no longer necessary after implementing the manager and SAM dashboard and providing tabs for pending actions.  The timesheet verification queue icon will appear in the header only when there are timesheets processing in the queue.
-
+</p>
 
 Contractor serial number - We have standardized references to the contractor's blue pages serial number across the application.  It had been listed as both IBM Serial Number and IBM Contractor ID.  We have changed the name to be reflective of the supplier/buyer relationship in our application, so it is now referred to across the application as "Buyer Contractor ID".  This doesn't change its functionality, it still refers to the 6-digit Blue Pages serial number, just with a consistent name. 
-
+</p>
 Calendar - The Date Picker calendar icon now only displays available dates up to the date of the PO expiration.  This was the final piece to the removal of the Grace Period.  Now the calendar on the timesheet page clearly indicates the ending period of the PO.  While the contractor can still claim time for the whole week even if the PO expires in the middle of the week, the calendar will clearly show the PO end date.
-
+</p>
 Expiring POs - We updated the access on the Expiring POs tab for both Managers and SAM (Supplier Account Managers) to allow them to move a PO from their Expiring Tab to their Inactive tab without having to navigate back to the Primary tab to do so.  You can now move directly to the INACTIVE tab from the Expiring tab.
-
+</p>
 
 <h3>2/23 Release</h3>
 User Interface Changes - We are working on changing our UI to be based on CARBON, in preparation for that we have standardized the fonts and colors of the User Interface.  Users will notice a darker font, the IBM Plex font and more standardized color scheme.  In addition to the font changes, the "FEEDBACK" button was nudged away from the vertical scroll bar to not block its usage.  This was based on customer feedback. 
