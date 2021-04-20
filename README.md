@@ -18,6 +18,16 @@ Made it so that when a new timesheet is loaded, we will only copy over the valid
 
 Upgraded to IBM Blockchain Platform (IBP) v2
 
+<h3>04/20 Release</h3>
+Email upgrades - This release you will see a new look and feel to the emails that are sent out by the Contingent Labor Blockchain application directly.  Emails like timesheet verification, PO delegation, etc will all have a new standardized format and will look a lot more official.  
+
+User Interface Changes - We are working on changing our UI to be based on CARBON.  This release you will see a change in the banner messages presented to users when performing actions within the application.  These banner messages more closely aligned to the standard with other IBM applications.  You will see that success messages automatically close after 7 seconds, while informational, warning or error messages require your acknowledgment of the message.  Messages will also stack on the right-hand side of the application so you can see more than one message at a time.
+
+ILC Non Billable accounts - For those contractors who are ILC enabled and are using a select set of Non Billable account codes to claim "Time Away" on their timesheets, these claim codes are now considered NON BILLABLE and therefore will not be included in the Total Billable Hours.  The hours will still be transmitted to ILC but will not be included in the total billable hours listed on the timesheet, nor will they be included in invoicing from the suppliers.  (examples of such work items are: ATCONOFF, ATQNOBIL, NONBILLCT, UNBILLCT, ATUNBIL2 and ATQNOBI1). This does NOT change the behavior of the vacation code used by many contractors with Account = SK00, Work item = FPSUBZER where zero hours are claimed.  
+
+Preparation for Kyndryl - IBM announced that our new spin off company name is Kyndryl.  For those people transitioning over to Kyndryl, we will continue to support both IBM and Kyndryl within our same Contingent Labor on IBM Blockchain application.  As both IBM and Kyndryl will exist within the same application, our Suppliers (SAM) will need the ability to distinguish between both companies.  We have added "Company Name" indicators to the SAM view for all tables and detail records (PO, Contractor records, timesheets and Invoices)
+
+
 <h3>3/16 Release</h3>
 Performance - This release was focused around increased performance in bulk tables, both being to load and extract tables across the application. Users should see tables loading more rapidly and being able to view the whole table without an error being presented.  With the aggregation that was originally in the application, users were finding the tables were either not loading or were taking a long time to load.  Our Dev team made updates and you should see a performance increase in all bulk tables. 
 
