@@ -1,22 +1,17 @@
 # Blockchain-Contingent-Labor-Releases
-
-<h3>Past Year Highlights</h3>
-
-We added a timesheets page allowing contractors to see a table of ALL of their timesheets, including saved (not submitted) timesheets and timesheets on multiple POs
-
-In response to manager feedback, we created a new landing page which clearly presents all of the items awaiting action.
-
-We introduced a variety of reports that allow Managers, Delegated Time Verifiers, Financial Analysts, IBM Contractor Administrators, and Suppliers to keep track of and have better insight into their contractor and Purchase Orders.
-
-Weekly emails to remind Managers and DTVs about time sheets that need to be verified
-
-Made it so that if there is a renewal PO that flows to the app and is linked in CSA to a PO already in the Blockchain Application with an "All Approved" contractor record, the contractor record on the new PO will automatically be created.
-
-New tab added to Purchase Orders page: "Pending Contractor Assignment"- this tab will show the new and renewal POs loaded to the application that do not yet have a contractor associated to them.
-
-Made it so that when a new timesheet is loaded, we will only copy over the valid timesheet rows from the previous week's timesheet.
-
-Upgraded to IBM Blockchain Platform (IBP) v2
+<h3>05/05 Release</h3>
+Password Change - To comply with ITSS standards for passwords, passwords will need to be updated every 90 days. This applies for all users not using w3ids where password reset is controlled by IBM's SSO. Users will be warned 7 days prior to password expiration and prompted for password update.  Once expired, users will be forced to change their password prior to logging on and will be taken to the password reset page upon an attempt to log on.
+</p>
+Planned Maintenance Notification - With this release we will now have the ability to notify users of upcoming releases or maintenance windows prior to taking system down and putting up maintenance page. Informational messages will be viewable upon logging into the url and will appear for every log on until the maintenance window begins.  
+</p>
+Contractor Dashboard - Contractors have a new landing page in our application. The Contractor dashboard gives greater visibility to contractors if they have SAVED or Rejected timesheets that require their action, and visibility into timesheets still pending verification.  
+</p>
+Archive Timesheets - Contractors and SAM (Supplier Account Manager) can now archive SAVED timesheets. This will allow contractors to clean up their saved timesheet view if a timesheet was created and is now no longer needed.  Archiving a timesheet removes it from the timesheets tables for all persona (Contractor, Manager, SAM, DTV, FA).  These archived timesheets are not eligible for payment to the contractor or invoicing to IBM.  There is a way to restore an archived timesheet if the timesheet was archived in error and now needs to be submitted.
+</p>
+Searching ST Hours - Managers, CCAs, FAs and SAMs will see a new search function to allow you to search Purchase orders by Remaining ST hours with less than or equal to the hours searched
+</p>
+Reports - For the SAM (Supplier Account Managers) who will be able to see purchase orders for both IBM and Kyndryl, we have added to SAM report functions the ability to filter by the company name (either IBM or Kyndryl).  Report results include the company name in the report results. 
+</p>
 
 <h3>04/20 Release</h3>
 Email upgrades - This release you will see a new look and feel to the emails that are sent out by the Contingent Labor Blockchain application directly.  Emails like timesheet verification, PO delegation, etc will all have a new standardized format and will look a lot more official.  
@@ -85,6 +80,24 @@ We added the ability to download a PDF of time sheets. This is especially helpfu
 Warranty Contractor process established for select supplier (CTG) - this enhancement allows Managers to initiate a warranty process for contractors who left during their warranty period. Their time sheets will be flagged so IBM knows they are non-billable, and the contractor won't be able to submit more time sheets.
 
 Supplier invoices will now include the Payment Due Date, Paid Date, and Payment Document Number 
+
+<h3>2020 Highlights</h3>
+
+We added a timesheets page allowing contractors to see a table of ALL of their timesheets, including saved (not submitted) timesheets and timesheets on multiple POs
+
+In response to manager feedback, we created a new landing page which clearly presents all of the items awaiting action.
+
+We introduced a variety of reports that allow Managers, Delegated Time Verifiers, Financial Analysts, IBM Contractor Administrators, and Suppliers to keep track of and have better insight into their contractor and Purchase Orders.
+
+Weekly emails to remind Managers and DTVs about time sheets that need to be verified
+
+Made it so that if there is a renewal PO that flows to the app and is linked in CSA to a PO already in the Blockchain Application with an "All Approved" contractor record, the contractor record on the new PO will automatically be created.
+
+New tab added to Purchase Orders page: "Pending Contractor Assignment"- this tab will show the new and renewal POs loaded to the application that do not yet have a contractor associated to them.
+
+Made it so that when a new timesheet is loaded, we will only copy over the valid timesheet rows from the previous week's timesheet.
+
+Upgraded to IBM Blockchain Platform (IBP) v2
 
 <h3>12/3 Release</h3>
 
