@@ -1,4 +1,16 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>05/25 Release</h3>
+SEARCH - As we continue to roll out Carbon components, this release sees a new enhancement to the SEARCH function. Searching tables with the spyglass icon you can use the PLUS symbol to add a new search filter.  The Carbon filtering is more crisp, easier to navigate and provides Boolean selection for our true/false fields to reduce typos. 
+</p>
+FILTER ICON - You will now see an indicator on the tab for which you have filtered data indicating some data may not be displayed. Filter icon will clear once the filters are removed.  As you switch tabs, the filtered icon will only show on the active tab, but if you return to a tab where the filters are still applied the filter icon will show up again.  
+</p>
+TIMESHEET TABLE – The timesheet tables will now display the breakout of billable hours between hours categories (ST = Standard or Straight Time, OT = Overtime, DT = Doubletime).  This information is available in the table downloads as well as showing on the User Interface. 
+</p>
+INVOICE FAILURE REASON CODE – For our Financial Analyst teams, a new feature has been added to allow failed invoices to be categorized with a failure reason code to aid in analysis.
+</p>
+PREPARATION for Kyndryl - As the spin date approaches where GTS will separate to become Kyndryl, we are making changes to our application to allow for both IBM and Kyndryl data to exist in the same blockchain application. This release contained work to prevent Kyndryl contractors from claiming time against their POs prior to the July 1 Day0 date.  Most of these enhancements will not be visible to IBM, but we are working hard to prepare the Contingent Labor on IBM Blockchain application to support both IBM and Kyndryl. 
+</p>
+</p>
 <h3>05/05 Release</h3>
 Password Change - To comply with ITSS standards for passwords, passwords will need to be updated every 90 days. This applies for all users not using w3ids where password reset is controlled by IBM's SSO. Users will be warned 7 days prior to password expiration and prompted for password update.  Once expired, users will be forced to change their password prior to logging on and will be taken to the password reset page upon an attempt to log on.
 </p>
