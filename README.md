@@ -1,4 +1,13 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>06/19 Release</h3>
+Kyndryl  - We have taken steps to prepare our application for the spin off of the GTS-IS business from IBM to Kyndryl, scheduled for **September 1, 2021**.  Kyndryl employees and contractors shifting to Kyndryl will still be using the Contingent Labor on IBM Blockchain application for time entry and verification.  This release we prepared to handle the user creation and set up of NEW contractor records against the Replacement POs which will be issued for Kyndryl.  This automation will help with the transition process and reduce the manual effort for both managers/CCAs as well as Suppliers (SAMs).
+</p>
+Kyndryl timesheets – On the go live date for Kyndryl, we have taken steps to prevent contractors from claiming time against their IBM PO after the 9/1 date and only allowing them to claim time against their Kyndryl PO to avoid timesheet and invoicing errors to the wrong company.  Details can be found in the contractor, manager and SAM training documentation. 
+</p>
+Log on error message – As new contractors or managers try to log into the application, if their user ID is not yet set up they are presented with an error message.  We have added to this error message useful information on why they may not yet have access and how to resolve if possible. 
+</p>
+European expansion – As our application is preparing to expand to countries outside of the US, the use of country code will become more important.  This release we have added the country into the Invoice Calendar definitions.  SA (Supplier Admins) setting up new invoice calendars or modifying existing invoice calendars will now see the country has been added.  For now it is all still US based but these are steps we are taking to prepare for expansion. 
+
 <h3>05/25 Release</h3>
 SEARCH - As we continue to roll out Carbon components, this release sees a new enhancement to the SEARCH function. Searching tables with the spyglass icon you can use the PLUS symbol to add a new search filter.  The Carbon filtering is more crisp, easier to navigate and provides Boolean selection for our true/false fields to reduce typos. 
 </p>
@@ -8,7 +17,7 @@ TIMESHEET TABLE – The timesheet tables will now display the breakout of billab
 </p>
 INVOICE FAILURE REASON CODE – For our Financial Analyst teams, a new feature has been added to allow failed invoices to be categorized with a failure reason code to aid in analysis.
 </p>
-PREPARATION for Kyndryl - As the spin date approaches where GTS will separate to become Kyndryl, we are making changes to our application to allow for both IBM and Kyndryl data to exist in the same blockchain application. This release contained work to prevent Kyndryl contractors from claiming time against their POs prior to the July 1 Day0 date.  Most of these enhancements will not be visible to IBM, but we are working hard to prepare the Contingent Labor on IBM Blockchain application to support both IBM and Kyndryl. 
+PREPARATION for Kyndryl - As the spin date approaches where GTS will separate to become Kyndryl, we are making changes to our application to allow for both IBM and Kyndryl data to exist in the same blockchain application. This release contained work to prevent Kyndryl contractors from claiming time against their POs prior to the **September** 1 Day0 date.  Most of these enhancements will not be visible to IBM, but we are working hard to prepare the Contingent Labor on IBM Blockchain application to support both IBM and Kyndryl. 
 </p>
 </p>
 <h3>05/05 Release</h3>
