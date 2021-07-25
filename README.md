@@ -1,4 +1,22 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>07/24 Release</h3>
+User Experience - Contractors logging in on Friday nights are now directed to current week’s timesheet based on their browser timezone. Previously contractors logging in later in the day on Friday may have experienced being presented the “next week’s” timesheet because system time had already rolled to Saturday. This enhancement will keep the user being defaulted to the current week until MIDNIGHT on Friday night according to their browser timezone.
+</p>
+User Experience – We have fixed the sorting function on the Contractor Record table where you can now sort by the USER NAME correctly.
+</p>
+New Notification – There is a new weekly email that will be sent to Managers, Contractors and Supplier Account Managers to inform them of timesheets that have NOT been submitted. The report covers the timesheets that are “missing” within the last 6 weeks for any contractor whose contractor record was All Approved during that 6 week time period and did NOT submit their time. (Saved timesheets are considered not submitted).
+</p>
+Error prevention – Purchase Orders are 1 contractor per 1 PO, as such we have removed the ability to add 2 contractor records to a single PO and have added error handling to prevent accidental creation of a duplicate record due to timing or sync issues.
+</p>
+Invoice – We have added the Buyer Contractors ID to the Invoice data for easier cross reference. This can be seen in the Invoice Reconciliation, Supplier Invoice and Blockchain invoice pages.
+</p>
+Invoice - We added the hours type breakdown to the download of the Invoice tables as well, so you can see the hours types that were used more readily.
+</p>
+European Expansion - In preparation of our expansion beyond US based POs, we are making some updates to our application. You will now see the Unit of measure show on PO details by line item. This is to account for other countries use of Professional Working days so their rates are not all hourly.
+</p>
+European Expansion -Supplier Admins will also see that there is a new column in the invoice calendars to denote if the calendar is monthly or not. The ability to select monthly is available for UK, therefore all invoice calendars created for the US will say Monthly = FALSE
+</p>
+
 <h3>06/19 Release</h3>
 Kyndryl  - We have taken steps to prepare our application for the spin off of the GTS-IS business from IBM to Kyndryl, scheduled for **September 1, 2021**.  Kyndryl employees and contractors shifting to Kyndryl will still be using the Contingent Labor on IBM Blockchain application for time entry and verification.  This release we prepared to handle the user creation and set up of NEW contractor records against the Replacement POs which will be issued for Kyndryl.  This automation will help with the transition process and reduce the manual effort for both managers/CCAs as well as Suppliers (SAMs).
 </p>
