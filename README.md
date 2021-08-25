@@ -1,4 +1,20 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>08/25 Release</h3>
+Logon page – With the transition to Kyndryl, some of our users will be using their Kyndryl emails to log on.  The “Sign in with IBMid” button was removed.  Enter in your email address into the user name, if it is part of the IBM domain you will be routed to IBM’s SSO when pressing NEXT.  If the username is part of the Kyndryl domain, you will be routed to Kyndryl’s SSO when pressing NEXT. 
+</p>
+Timesheet table - Timesheets displayed on the timesheet tab will now be sorted by Timesheet Weekending date with the most recent timesheets at the top of the table.  You still can change the sort order to a different column if needed.
+</p>
+Timesheet table – We have added the ability to select the number of records you would like to display on the timesheet table.  This will allow you to select more timesheets at one time for CSV download or bulk verification. 
+</p>
+Timesheet detail, SAM email – Contractors are not able to adjust their timesheet hours once their timesheet is fully verified.  Only the supplier can do this on the contractor’s behalf.  To help the contractors know who to reach out to if hours updates are required, we have added the Supplier (SAM) email hotlink to the timesheet status message above the Make Edits button. 
+</p>
+Contractor Country Code – As we continue to expand our application, we need to support cross boarder contractors where the contractor’s bluepages country information may not match the PO’s country code.  To allow for the necessary bluepage validation to work correctly, we have implemented a NEW field in the Contractor Record called Enterprise Directory Country Code.  This is the 3 digit country code suffix of the CNUM in blue pages.  This will default to the country code of the PO, for the US this is 897.  This country code CAN be updated if the contractor is working on a PO for a country that does not match their Bluepages record.   (Cross boarder -Example US based PO but employing a contractor from Canada)
+</p>
+ILC failures – Enhanced Timmybot failure messaging.   – ILC enabled contractors and their managers receive automated emails from timmybot stating if ILC accepted or rejected the submitted timesheet.  For failures, we have updated the failure messaging to include likely corrective action steps.  The bchelp team will NO LONGER send individual emails about each ILC failure.  The corrective action should be available to you in the failure notice from timmybot.  Please read the actions and resubmit once updated so your time can be added to ILC successfully. 
+</p>
+Invoice Recon Manual Reprocess function - Financial Analysts can now manually reprocess an Invoice Reconciliation record. This function will allow the invoice reconciliation record to pick up any later verified timesheet or timesheet corrections and reflect the correct hours verified in blockchain. </p>
+</p>
+
 <h3>07/24 Release</h3>
 User Experience - Contractors logging in on Friday nights are now directed to current week’s timesheet based on their browser timezone. Previously contractors logging in later in the day on Friday may have experienced being presented the “next week’s” timesheet because system time had already rolled to Saturday. This enhancement will keep the user being defaulted to the current week until MIDNIGHT on Friday night according to their browser timezone.
 </p>
