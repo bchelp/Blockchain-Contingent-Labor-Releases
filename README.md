@@ -1,4 +1,22 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>10/07 Release</h3>
+Timesheet FONT – Based on feedback from users, we have changed the font on the timesheet page to be darker and a bit larger and more consistent in sizing. 
+</p>
+Low Funds Dashboard – Manager and Supplier dashboards now have a Low Funds tile.  Low funds is defined as less than 20% of funds remaining on ANY of its line items (Standard Time, Over Time, Double Time or Expense).  Clicking on this tile will bring you to the Remaining Funds report which will give you details on which PO and which fund category is low. 
+</p>
+Automated Contractor revoke – Managers and SAMs will now receive weekly notification emails of contractors whose Serial number is no longer valid in IBM’s Bluepages.  If the contractor is still performing work for IBM, their DRMS record will need to be corrected so there is a valid entry in Bluepages.  If by the following week they still do not have a valid blue page entry the contractor will be revoked from the Contingent Labor on IBM Blockchain application.
+</p>
+Automated Manager/DTV revoke – Manager and DTV will automatically be revoked from the Contingent Labor on IBM Blockchain application if their Bluepages record is not valid using their ibm.com id.  
+</p>
+Reports – As we continue to update our User Interface to utilize Carbon, we have updated the look and feel of the reports available from the “Reports” page.  Same functional to the reports, just a new user interface. 
+</p>
+Invoice Report – In addition to the carbon change, we have added the Invoice Reconciliation status to the INVOICE report output.  
+</p>
+Contractor Search – We have enhanced the search function on the Contractor Records page to allow searches by Contractor Status.
+</p>
+Edge browser- Our application was previously not supported by older versions of Edge.  Now that Edge’s has released Edge Chromium, we have removed the warning message the Edge is not a supported browser.  
+</p>
+</p>
 <h3>08/25 Release</h3>
 Logon page – With the transition to Kyndryl, some of our users will be using their Kyndryl emails to log on.  The “Sign in with IBMid” button was removed.  Enter in your email address into the user name, if it is part of the IBM domain you will be routed to IBM’s SSO when pressing NEXT.  If the username is part of the Kyndryl domain, you will be routed to Kyndryl’s SSO when pressing NEXT. 
 </p>
