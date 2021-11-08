@@ -1,4 +1,20 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>11/09 Release</h3>
+Timesheet details – UI enhancement – Timesheets have been modified to maximize the timesheet information shown on a single screen to minimize scrolling.  This modification collapsed some of the Contractor details and changed the calendar picker format.  Please see updated training documentation for more details.
+</p>
+Duplicate timesheets – Contractors with more than one active PO may try to submit a timesheet for the same week under both POs.  To prevent accidental duplication of timesheets, there is now a WARNING pop up message that asks the contractor to confirm that they intend on submitting a second timesheet for the same week noting that a timesheet was already submitted and providing the PO number for the timesheet already submitted.
+</p>
+Editing timesheets – Contractors needing to edit their previously submitted timesheet will now see a pop-up warning message asking them to confirm. Pressing “Make Edits” or “Make Corrections” puts the timesheet back into a SAVED status.  To prevent this from happening unintendedly, the pop-up warning is now in place instructing the user that the timesheet will be in a saved status until resubmitted. 
+</p>
+Timesheet Page – UI enhancement – The column spacing on the timesheet table was too wide and didn’t easily allow users to see their full details without scrolling left and right.  The timesheets table was updated to better optimize the column widths to see more information on a standard screen.
+</p>
+Timesheet Page Pending tab - Managers and DTVs will now be defaulted to their PENDING tab on the timesheet table page instead of their escalated tab.  While both tabs will remain, we received feedback that the preference will be to be defaulted to the PENDING tab upon navigation to the Timesheet page. 
+</p>
+Manager/DTV dual role – With this release, managers that have a DUAL role of manager and DTV will now be able to change their role without logging out.  The ability to toggle between roles is available by clicking on the username/role listing at the top right corner of the app.  See updated training documentation for more details. 
+</p>
+User Help – Ever needed the link for our training slides?  We have now updated our USER HELP page to include the links to all our training guides as well as links to our SLACK channels for questions that cannot be answered from the guides.
+</p>
+</p>
 <h3>10/07 Release</h3>
 Timesheet FONT – Based on feedback from users, we have changed the font on the timesheet page to be darker and a bit larger and more consistent in sizing. 
 </p>
