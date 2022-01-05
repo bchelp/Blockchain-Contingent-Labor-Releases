@@ -1,4 +1,22 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>01/05/22 Release</h3>
+</p>
+Timesheet Copy Claim Codes – A new function was added to allow contractors (and suppliers) to COPY claim codes from a previous timesheet to the current timesheet. This enhancement will help contractors who are switching POs and don't have an automatic default of their previous ILC claim codes to their current timesheet when their new PO starts. Only ACTIVE claim codes will copy into the new timesheet, a warning message will inform contractors of claim codes that could not be copied into the new timesheet based on claim code validity.  Hours will not be copied, only claim codes.
+</p>
+Timesheet status – The status of the timesheet is now listed at the bottom of the timesheet detail page. We have replaced the text of who has already verified to match the timesheet status in the table view thereby being clearer about who is left to act on verifying each timesheet.
+</p>
+Non-Billable totals – To more readily see the total hours claimed by ILC users to NON-BILLABLE accounts (either non billable ILC accounts like ATCONOFF, or to custom line items provided by the supplier which are non-billable to IBM), there is now a timesheet total row for Non-Billable accounts. If a Non-Billable ILC account was claimed as ST, those hours will show in both the ST total rows and the Non billable totals row but will not impact the total billable hours being claimed.
+</p>
+CARBON forms for Contractor Record- Managers, CCAs and SAMs will notice a new look and feel to the data they are entering into the Contractor records. We are continuing updating our application to be using CARBON, so the layout of the contractor record “My Edits” tab will have the new look and feel, but all the same fields and functions.
+</p>
+Table Spacing - UI enhancement – The column spacing on ALL tables were adjusted to better optimize the column widths to see more information on a standard screen.
+</p>
+Correction timesheet – There is a NEW column in the timesheet table that shows if the timesheet has a submitted correction in the Post Processing timesheet section of the timesheet. This true/false indicator will inform users if the original timesheet was submitted, fully verified, invoiced and is now being re-submitted with corrections.
+</p>
+Tour Guide – New Contractors will be presented with a tour of their timesheet upon initial log in when they press Claim Time. This is to highlight the different areas of the timesheet and a quick overview of what to expect when claiming time in our application.
+</p>
+</p>
+<h3>**2021 Highlights**</h3>
 <h3>11/09 Release</h3>
 Timesheet details – UI enhancement – Timesheets have been modified to maximize the timesheet information shown on a single screen to minimize scrolling.  This modification collapsed some of the Contractor details and changed the calendar picker format.  Please see updated training documentation for more details.
 </p>
