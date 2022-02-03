@@ -1,4 +1,16 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>02/03/22 Release</h3>
+</p>
+Contractors – Timesheet PO select – Contractors who have more than one PO have the option to select which PO they need to claim against.  We changed 2 step PO selection process (select PO and press go) to be a single step (select PO) when choosing which PO to claim time against on the Timesheet page.  
+</p>
+Preparation for UK expansion – Contingent Labor on IBM Blockchain has been a US based application since 2018, but we will be expanding to the UK in February 2022.  There has been a lot of work in the background to prepare for this expansion.  This release completes the bulk of the code changes required to onboard UK Purchase Orders into the system. 
+</p>
+There may be some differences in the data layout on the pages to accommodate for the expansion.  
+</p>
+Timesheet table – There are 2 new columns in the timesheet table, SD (stand by) and CO (call out).  Both relate to the hour types available on UK timesheets.  These columns will be blank for all US timesheets.
+</p>
+Invoice Reconciliation page – We reorganized the data on the Invoice Reconciliation detail page to group the data into a table format to standardize the look and feel on that page.
+</p>
 <h3>01/05/22 Release</h3>
 </p>
 Timesheet Copy Claim Codes – A new function was added to allow contractors (and suppliers) to COPY claim codes from a previous timesheet to the current timesheet. This enhancement will help contractors who are switching POs and don't have an automatic default of their previous ILC claim codes to their current timesheet when their new PO starts. Only ACTIVE claim codes will copy into the new timesheet, a warning message will inform contractors of claim codes that could not be copied into the new timesheet based on claim code validity.  Hours will not be copied, only claim codes.
