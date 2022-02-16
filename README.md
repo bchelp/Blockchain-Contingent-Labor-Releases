@@ -1,4 +1,20 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>02/16/22 Release</h3>
+</p>
+Timesheet – ILC search clarification – There have been questions regarding what data is being returned in the initial search to ILC, for performance reasons only the first 30 results will be returned.  If you need a claim code that isn’t being returned in the first 30 results, you will need to add criteria and search again.  (example, bill codes 001 to 030 show up, if you need bill code 046, add it to the search criteria) To help clarify this, we have added the following text to the ILC enabled timesheets:
+Please click the "Search ILC" button to perform a deep search of ILC. Only the first 30 codes will appear in the search. The more specific the inputs, the more accurate the search results.
+</p>
+Timesheet editing clarification – The pop up message presented to contractors when editing their timesheet provides more detail on how a contractor can edit their claim code.  To help clarify this, we have updated the pup up with the following text: 
+If you want to edit your claim code, please click "Clear Search Inputs" first then input your new code. If you want to edit your hours, please reach out to your supplier. 
+</p>
+Timesheet Verification from detail page – As a manager, DTV or SAM verifying a timesheet from the timesheet details, if the timesheet verification or rejection was successful, you will be returned to your PENDING TAB on timesheet table page to reduce the number of clicks and allow you to more rapidly verify timesheets. 
+</p>
+Timesheet record filtering – An enhancement was added to the filtering for Timesheets allowing you to search by a date range for timesheet verification dates.  So you can now search for timesheets that were verified between 2 dates.  Only timesheets fully verified will show up in this search under the “All” tab on your timesheet table. 
+</p>
+Contractor record Approval date – Per the request of our manager’s user council, we have added the latest All Approved date to the “Full Record” tab on the Contractor record.  This is the date would be updated if the contractor record was edited and re-approved.  The Approval Date will only show up if the contractor record is in All Approved status. 
+</p>
+Invoice reconciliation - Enhancements were made to allow for Supplier Invoice auto-reconciliation to occur if the billing periods partially matched the Contingent Labor Billing periods established by the supplier in their invoice calendar.  This means that instead of requiring an EXACT match of both the billing start and billing end dates, we can now auto-reconcile the invoice if the billing period’s end date or start dates match (or are a subset of) the Contingent Labor Blockchain invoice. 
+
 <h3>02/03/22 Release</h3>
 </p>
 Contractors – Timesheet PO select – Contractors who have more than one PO have the option to select which PO they need to claim against.  We changed 2 step PO selection process (select PO and press go) to be a single step (select PO) when choosing which PO to claim time against on the Timesheet page.  
