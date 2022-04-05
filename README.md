@@ -1,4 +1,11 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>04/05/22 Release</h3>
+</p><b><font color=10b36e> <em>Colin the chatbot is LIVE- </em></font></b>  Our NEW Chatbot, powered by Watson Assistant, is being implemented for both Contractors and Managers. Please make sure to pick the correct role upon accessing the chatbot. This chatbot should be able to help answer frequently asked questions. It was trained using the User documentation <a href=https://ibm.box.com/s/40qb75804l220por08bhyauz7ysqlfqj target="_blank">Contractor Training</a> and <a href=https://ibm.box.com/s/w6y2juzzyvi5e5hrv39hciqh1j90lgyg target="_blank">Manager Training</a> and common user questions.  If your role is not Contractor or Manager, you still may find answers to common questions by selecting Manager as some tasks are shared across roles. The chatbot will continue to learn and grow as it's asked more questions so please use it for any questions you might have!
+</p>
+<b>Timesheet not showing Friday– </b> This release we fixed a bug that had been reported where Contractors were not able to see/claim against the Friday on their timesheet for the final week of their PO’s end date if the contractor time zone was ahead of the system time zone.  
+</p>
+<b>UK Expansion– </b> The expansion to the UK has begun in a pilot phase.  New UK suppliers and POs have been added to the application and contractors records will soon be set up. We look forward to onboarding Contractors and Managers in the UK - Welcome aboard, please see the UK training documentation if it applies to you.  
+</p>
 <h3>03/16/22 Release</h3>
 </p><b>Supplier Invoice table– </b> In order to enhance the Invoice Reconciliation process, the supplier invoice table now allows the selection of more than 15 invoices to be displayed on a single page.  
 </p>
