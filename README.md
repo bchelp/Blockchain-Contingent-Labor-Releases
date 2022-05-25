@@ -1,4 +1,45 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>05/25/22 Release</h3>
+</p>
+<b>Reports update– </b>With the addition of the Cost Center data element to our application during the previous release, we have now updated the “REPORTS” that are generated on the reports tabs to include the cost center data. 
+</p>
+FAs and CCAs now can FILTER their reports by selected cost centers (multiple selections are allowed for this filter)
+</p>
+<b>Liability Reports– </b> SAMs (Supplier Account Managers) now have access to execute the Liability and Invoice reports. 
+</p>
+<b>User settings updates – </b>For our CCA and FA teams, we have added an option to your USER SETTING to add the Cost Center for filtering.  As POs are loaded that contain cost centers not previously used in the Contingent Labor Blockchain, the cost center list will expand.  Please be sure if you are using this filter that you revisit your selections to ensure you are adding required cost centers if you are filtering out cost center options.  
+</p></p>
+<h3>05/11/22 Release</h3>
+<b>Timesheet alert for holiday claim– </b>Timesheets will now show holidays in a shaded blue color and will provide a WARNING (not a hard stop) message to the contractors when they enter hours on a holiday.  This is to help prevent accidental claiming on holidays which can cause re-work.  Holiday hours can still be claimed, this is just a visual cue to raise awareness of claiming on a holiday.
+</p>
+<b>Low Funds orange highlight change– </b>Purchase Orders will be highlighted in orange on the Purchase Order bulk table if the percent remaining is 10% remaining of the original Standard Time funds.  This change removes the secondary check that would highlight the PO as low on funds if the Standard time hours were below 40 hours. 
+</p>
+<b>Cost Centers and WBS elements– </b>Per the request of our end users, 2 new data elements were added to the application and can be seen on the Purchase Order, Contractor Record, Timesheet tables. 
+</p>
+The WBS (Work Breakdown Structure) element can be seen on the Contractor Record set up and on the timesheet table and details page to ensure timesheet verification can be made more easily to compare the claim codes used against the WBS project.
+</p>
+The Cost Center can be seen on tables and detailed views including the PO, Contractor, Invoice Reconciliation record.  Further enhancements will continue to take place regarding the Cost Center in follow on releases.  
+</p>
+Data migration was completed for all 2022 Purchase Orders to populate these 2 data elements, any NEW purchase order loaded after this release will continue to load either the WBS or Cost Center as available. 
+</p>
+<b>UK Expansion– </b> The expansion to the UK has begun in a pilot phase.  New UK suppliers and POs have been added to the application and contractors records are actively being set up.
+</p>
+We look forward to the continued onboarding of Contractors and Managers in the UK   - Welcome aboard, please see the UK training documentation if it applies to you. 
+</p></p>
+<h3>04/27/22 Release</h3>
+</p><b>Supplier Invoice rejection status– </b> As an enhancement to the Financial Analyst process of rejecting supplier invoices from within the Contingent Labor blockchain application, this release added 2 new columns to the Supplier Invoice table for recording the Invoice Rejection status and Rejection Ticket.  This will help to identify which supplier invoices have been requested for rejection more easily. 
+  
+  <b> Update the useful links -</b>As our publisher page is only available for users with IBM ids, we have updated our Useful links on dashboard pages to point to the USER HELP screen within the Contingent Labor Blockchain where the user training documentation links can be found.  We have also noted that the publisher site is only available with an IBM id.
+  
+  <b>UK Expansion– </b> The expansion to the UK has begun in a pilot phase.  New UK suppliers and POs have been added to the application and contractors records will soon be set up.  
+  
+  </p>
+<h3>04/13/22 Release</h3>
+</p><b>Timesheet table Country Switcher– </b> With the expansion of the Contingent Labor Blockchain application to the UK and in preparation for future expansions, we have implemented a Country Switcher function to the Timesheet table page. </p>
+</p>If you have access to timesheets for POs from MULTIPLE countries, your Timesheets page will be blank until you to select a country to view its timesheet data. Within the same login session, you may select a different country one at a time later as required.
+</p>If you only have POs under a single Country, the country switcher will not appear, so you will automatically be defaulted to your Timesheets page as usual.
+</p>
+
 <h3>04/05/22 Release</h3>
 </p><b><font color=10b36e> <em>Colin the chatbot is LIVE- </em></font></b>  Our NEW Chatbot, powered by Watson Assistant, is being implemented for both Contractors and Managers. Please make sure to pick the correct role upon accessing the chatbot. This chatbot should be able to help answer frequently asked questions. It was trained using the User documentation <a href=https://ibm.box.com/s/40qb75804l220por08bhyauz7ysqlfqj target="_blank">Contractor Training</a> and <a href=https://ibm.box.com/s/w6y2juzzyvi5e5hrv39hciqh1j90lgyg target="_blank">Manager Training</a> and common user questions.  If your role is not Contractor or Manager, you still may find answers to common questions by selecting Manager as some tasks are shared across roles. The chatbot will continue to learn and grow as it's asked more questions so please use it for any questions you might have!
 </p>
