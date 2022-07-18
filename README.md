@@ -1,4 +1,29 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>07/06/22 Release</h3>
+</p>
+As part of the production release on July 6, most of the updates made in this release were bug fixes or will be used as part of the Ireland go live so they are transparent to the end users.
+</p>
+We look forward to the continued onboarding of Contractors and Managers in the UK - Welcome aboard, please see the UK training documentation if it applies to you.
+</p>
+IE Expansion– The expansion to the Ireland is next up! We are looking forward to expanding out to Ireland and welcoming those usesrs into our application as well. Some of the release also includes work in preparation for bringing IE onboard. 
+
+
+<h3>06/22/22 Release</h3>
+</p>
+<b>Missing Claims report– </b>The Missing Claims report is getting an upgrade where we are now listing the contractor's department, manager, DTV and supplier in the report for ease of use.
+</p> 
+<b>UK Expansion– </b> The expansion to the UK is in full swing.  New UK suppliers and POs have been added to the application and contractors records are actively being set up.
+</p>
+<b>IE Expansion– </b> The expansion to the Ireland is next up!  We are looking forward to expanding out to Ireland and welcoming those users into our application as well.  Some of the release also includes work in preparation for bringing IE onboard. 
+</p>
+
+<h3>06/08/22 Release</h3>
+</p>
+<b>Invoice Recon PDF download– </b>The Invoice Reconciliation Detail record now has the function to be able to download the full detail page to a PDF. 
+</p>
+<b>Supplier Contractor ID in Invoice Recon– </b>To allow for ease in reconciling on the supplier side we have added the Supplier Contractor ID to the Invoice Reconciliation records.  It had already existed on the contractor record, and timesheet but now it also shows up in the invoice reconciliation. 
+</p>
+
 <h3>05/25/22 Release</h3>
 </p>
 <b>Reports update– </b>With the addition of the Cost Center data element to our application during the previous release, we have now updated the “REPORTS” that are generated on the reports tabs to include the cost center data. 
