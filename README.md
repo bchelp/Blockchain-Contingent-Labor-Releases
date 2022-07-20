@@ -1,4 +1,12 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>07/20/22 Release</h3>
+</p><b>IE Expansion– </b> The expansion to Ireland is next up!  We are looking forward to expanding out to Ireland and welcoming those usesrs into our application as well. 
+</p>
+</p><b>Support for Ireland POs -</b> Our application can now support the internal value calculation for timesheets and invoices submitted on Ireland POs. This completes the final module of code that will allow for the load of Ireland POs into the Contingent Labor Blockchain when the business is ready.
+</p>
+</p><b>Supplier Invoice Rejection Enhancement -</b> Financial Analysts that bulk reject invoices, where some have a Paid Date and others do not have a Paid Date, a pop up will appear showing the invoice rejection requests that were successfully sent and the invoice rejection requests that failed.
+</p>
+
 <h3>07/06/22 Release</h3>
 </p>
 As part of the production release on July 6, most of the updates made in this release were bug fixes or will be used as part of the Ireland go live so they are transparent to the end users.
