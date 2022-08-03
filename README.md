@@ -1,4 +1,10 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>08/03/22 Release</h3>
+</p><b>Filtering -</b> Users that have access to the Purchase Orders page can now filter their search by Manager Email, similar to the Contractors page. 
+</p>
+</p><b>Carbon -</b> We have been updating our application to Carbon, the IBM branded UI design. Notice the login page has changed? That’s Carbon! All users User Settings page has also transformed into Carbon.
+</p>
+
 <h3>07/20/22 Release</h3>
 </p><b>IE Expansion– </b> The expansion to Ireland is next up!  We are looking forward to expanding out to Ireland and welcoming those usesrs into our application as well. 
 </p>
