@@ -1,4 +1,18 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>08/17/22 Release</h3>
+</p><b>Invoice Enhancement – </b>We have added the manager, DTV, SAM and Contractor email addresses to the Invoice tables to make research easier for the teams looking at invoice reconciliation.  This data has been available on other tables, but we are adding it to the invoice table, so you don’t need to look in multiple places. 
+</p>
+<b> “All” Data tabs – </b> Ever wondered where your PO or Contractor record went or need to search for active and expired records at the same time?  We have no added an “All” tab for the PO and Contractor record tables that is a combination of Active and Inactive records allowing you a tab for single searching or downloads.  This tab does NOT include CANCELLED POs/Contractors, that data remains only on the cancelled tab. 
+</p>
+<b>Missing Claim email – DTV – </b> Per the request of our users, the DTVs will also now receive the weekly email for contractors missing timesheet submission within the past 6 weeks.  This email is already being sent to Managers, SAMs and Contractors, with this update, assigned DTVs will also receive this email.   As always, you can update your USER SETTINGS to stop receiving this email should you chose. 
+</p>
+<b>Contractor’s timesheet on old PO – </b> Contractors using the “Select PO” function on their timesheet to change between default PO and previous POs will now be directed to the LAST timesheet week that was valid for the previous PO.  Prior to this change an error would appear because the previous expired PO was not valid for the current week, this change will allow you to navigate back to the last valid work week automatically.  
+</p>
+<b>Timesheet verification email – </b> Per user suggestion we have enhanced our Verify Timesheet email such that the link within the email will take you to the exact timesheet requiring verification rather than defaulting you to your pending timesheet tab.  
+</p>
+
+</p>
+
 <h3>08/03/22 Release</h3>
 </p><b>Filtering -</b> Users that have access to the Purchase Orders page can now filter their search by Manager Email, similar to the Contractors page. 
 </p>
@@ -6,7 +20,7 @@
 </p>
 
 <h3>07/20/22 Release</h3>
-</p><b>IE Expansion– </b> The expansion to Ireland is next up!  We are looking forward to expanding out to Ireland and welcoming those usesrs into our application as well. 
+</p><b>IE Expansion– </b> The expansion to Ireland is next up!  We are looking forward to expanding out to Ireland and welcoming those users into our application as well. 
 </p>
 </p><b>Support for Ireland POs -</b> Our application can now support the internal value calculation for timesheets and invoices submitted on Ireland POs. This completes the final module of code that will allow for the load of Ireland POs into the Contingent Labor Blockchain when the business is ready.
 </p>
