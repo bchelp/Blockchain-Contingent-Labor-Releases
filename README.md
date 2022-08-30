@@ -1,4 +1,12 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>08/31/22 Release</h3>
+<b>MOVE Timesheet submit/verify buttons– </b>Per the feedback we have received from many users, we have shifted the timesheet SUBMIT/SAVE and Verify buttons on the timesheet detail page so they are no longer blocked by the Chatbot.  The chatbot location is based off of the Watson Assistant and we didn’t have the option to move the chat bot location within our application.  Look for the same submit/save/verify functions just on the left side of the timesheet page.  
+</p>
+<b> CCA Contractor Create tool – </b> As an enhancement for our CCA teams who support the contractor record set up and PO delegation for some managers, we have created a tool that will allow a spreadsheet upload to create the contractor record, delegate to the correct manager and assign a DTV if required in a single tool.  
+</p>
+<b>USER GUIDE – All in one– </b> Update your bookmarks and take a look at our NEW and improved user documentation.  This User Guide encompasses all the user roles across the geographies that our application supports.  It allows you to see your own tasks, but also gives you a view of how interconnected the roles are.  The Index allows you to jump to the section that applies to you, noting which personas pertain in each section.  
+</p>
+
 <h3>08/17/22 Release</h3>
 </p><b>Invoice Enhancement – </b>We have added the manager, DTV, SAM and Contractor email addresses to the Invoice tables to make research easier for the teams looking at invoice reconciliation.  This data has been available on other tables, but we are adding it to the invoice table, so you don’t need to look in multiple places. 
 </p>
