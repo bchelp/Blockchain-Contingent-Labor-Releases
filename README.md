@@ -1,4 +1,9 @@
 # Blockchain-Contingent-Labor-Releases
+<h3>09/14/22 Release</h3>
+<b>Liability Report– </b>Per the request of our users, we have added the expense values to the liability report which can be seen by the managers, SAMs and FAs
+</p>
+<b> Cost Center added to Invoice– </b> We have added the cost center value to all of the Invoice Bulk tables (Invoice Reconciliation, Supplier Invoice, Blockchain Invoice)
+</p>
 <h3>08/31/22 Release</h3>
 <b>MOVE Timesheet submit/verify buttons– </b>Per the feedback we have received from many users, we have shifted the timesheet SUBMIT/SAVE and Verify buttons on the timesheet detail page so they are no longer blocked by the Chatbot.  The chatbot location is based off of the Watson Assistant and we didn’t have the option to move the chat bot location within our application.  Look for the same submit/save/verify functions just on the left side of the timesheet page.  
 </p>
